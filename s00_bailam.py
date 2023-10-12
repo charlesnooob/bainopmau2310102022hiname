@@ -33,9 +33,15 @@ hi('1', '22', '333', '4444') | Hi 1, 22, 333 and 4444!
 #endregion debai
 
 #region bailam
-def hi(name=''):
-  if name =='Mom':
+def hi(name='',name1='',name2='',name3=''):
+  if name=='Mom'and name1==''and name2=='' and name3=='':
     return 'Hi Mom!'
-  else:
-    return 'Hi!'
+  if name==''or name==None:
+    return'Hi!'
+  if name!='' and name1!='' and name2==''and name3=='':
+    return 'Hi '+name+', and '+name1+'!'
+  if name!='' and name1!='' and name2!=''and name3=='':
+    return 'Hi '+ name+', '+name1+ ', and '+name2+'!'
+  if name!=''and name1!=''and name2!=''and name3!='':
+    return 'Hi '+name+', '+name1+', '+name2+', and '+name3+'!'
 #endregion bailam
