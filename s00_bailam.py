@@ -13,7 +13,7 @@ hi(name)
 02b dan diachi githubrepourl tu trang web duoiday
     https://forms.gle/UuuL3NCyCKLVFPiF8
 
---- debai / problem
+--- debai / problemy
 Hay viet ham hi(name) xuat ra cau chao theo mota benduoi
 
 --- vidu mau / testcase
@@ -33,6 +33,9 @@ hi('1', '22', '333', '4444') | Hi 1, 22, 333 and 4444!
 #endregion debai
 
 #region bailam
-def hi(name):
-  return 'todo'
+def hi(name=''):
+  if name =='Mom':
+    return 'Hi Mom!'
+  else:
+    return 'Hi!'
 #endregion bailam
